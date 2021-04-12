@@ -18,7 +18,7 @@ global THREAD_COUNT
 global CAN_RUN
 
 global url_queue
-global CAN_RUN
+global crawled_urls
 
 AGENT_NAME = "ImDaBigBoss-Crawler"
 IGNORE_ROBOTS = True
