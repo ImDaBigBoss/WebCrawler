@@ -25,8 +25,8 @@ IGNORE_ROBOTS = True
 THREAD_COUNT = 100
 CAN_RUN = True
 
-url_queue = []
-crawled_urls = ["https://example.com/"]
+url_queue = ["https://example.com/"]
+crawled_urls = []
 
 #thread lock
 lock = threading.Lock()
